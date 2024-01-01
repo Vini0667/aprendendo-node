@@ -1,0 +1,30 @@
+<div class="jumbotron">
+    <h1 class="display-4"> Bem vindo a nossa página de pots </h1>
+    <p class="lead">
+        This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
+    </p>
+    <hr class="my-4">
+    <p>
+        It uses utility classes for typography and spacing to space content out within the larger container.
+        </p>
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" href="/usuario/registro" role="button"> Crie uma conta </a>
+    </p>
+</div>
+<hr class="my-4">
+<h2> Postagens recentes </h2>
+
+{{#each postagens}}
+    <div class="card mt-4">
+        <div class="card-body mt-3">
+            <h3> {{ titulo }} </h3>
+            <p> {{ descricao }} </p>
+            <a href="/postagem/{{slug}}"><button class="btn btn-success"> Leia mais </button></a>
+            <hr>
+            <small> Categoria: {{ categoria.nome }} </small><br>
+            <small> Data da postagem: {{ data }} </small>
+        </div>
+    </div>
+    {{else}}
+        <h2> Não há nenhuma postagem no momento... </h2>
+{{/each}}

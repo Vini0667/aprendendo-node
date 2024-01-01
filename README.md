@@ -1,0 +1,4 @@
+# Projeto com NodeJS do canal Victor Lima
+
+Este é um projeto feito para começar no NodeJS. 
+Estava acompanhando os vídeos do canal: Victor Lima, que tem uma playlist de NodeJS. No decorrer desses vídeos ele produz este projeto na qual eu repliquei, como os vídeos eram antigos tive que adaptar algumas coisas por causa de versões mais recentes de tecnologias (confesso que a adaptação significa gambiarra), mas foi mais que o suficiente para pegar uma certa familiaridade com a linguagem e começar o ano de 2024 entendendo mais de NodeJS e JavaScript e podendo estudar sozinho as coisas relacionadas a isso com mais facilidade.
